@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.container {
+  width: 1168px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.burger {
+  margin-top: 50px;
+  margin-left: 0;
+  width: 50px;
+  height: 28px;
+  gap: 8px;
+}
+
+.burger-menu {
+  width: 50px;
+  height: 4px;
+  border-radius: 4px;
+  background-color: black;
+  margin-bottom: 8px;
+}
+
+.no_bottom {
+  margin-bottom: 0;
+}
+
+h1 {
+  font-family: Roboto;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 70px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 98px;
+}
+
+h2 {
+  font-family: Roboto;
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 54px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 45%;
+  margin: 0;
+}
+
+img {
+  margin-top: 98px;
+}
+
+.description {
+  display: flex;
+  margin-top: 98px;
+}
+
+.description-text {
+  width: 568px;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #F1F1F1;
+  padding: 34px 50px;
+  border: 0;
+  border-radius: 20px;
+  margin-top: 98px;
+  margin-bottom: 98px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  width: 416px;
+  padding: 11px 24px 11px 24px;
+  border: 0;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+
+.button {
+  width: 207px;
+  height: 52px;
+  padding: 11px 54px 11px 54px;
+  border: 0;
+  border-radius: 10px;
+  background-color: #3D3BFF;
+  color: white;
+  margin-top: 24px;
+  cursor: pointer;
+  margin-left: 0;
+}/*# sourceMappingURL=style.css.map */
